@@ -62,6 +62,7 @@ PRODUCT_PACKAGES += \
     FontGInterOverlay \
     FontGoogleSansOverlay \
     FontHarmonySansOverlay \
+    RobotoFallback-VF.ttf \
     FontLinotteSourceOverlay \
     FontManropeOverlay \
     FontNotoSerifSource \
