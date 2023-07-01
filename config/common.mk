@@ -1,6 +1,7 @@
 # Allow vendor/extra to override any property by setting it first
 $(call inherit-product-if-exists, vendor/extra/product.mk)
 $(call inherit-product, vendor/pixys/build/core/pixys_version.mk)
+$(call inherit-product, packages/overlays/ThemeIcons/config.mk)
 
 PRODUCT_BRAND ?= PixysOS
 
